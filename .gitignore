@@ -1,0 +1,29 @@
+# temp and build files
+DerivedData/
+build/
+artifacts/
+output/
+*~.nib
+*.moved-aside
+*.swp
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+.idea
+
+# user data
+xcuserdata
+!xcshareddata
+!xcschemes
+.DS_Store
+*.xccheckout
+
+# cocoapods
+Pods/
+Frameworks/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output

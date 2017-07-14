@@ -1,0 +1,46 @@
+PODS:
+  - IGListKit (3.0.0):
+    - IGListKit/Default (= 3.0.0)
+  - IGListKit/Default (3.0.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.0.0)
+  - PINCache (3.0.1-beta.5):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.5)
+    - PINCache/Core (= 3.0.1-beta.5)
+  - PINCache/Arc-exception-safe (3.0.1-beta.5):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.5):
+    - PINOperation (= 1.0.3)
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.11):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.11):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.11):
+    - PINCache (= 3.0.1-beta.5)
+    - PINRemoteImage/Core
+  - Texture (2.3.4):
+    - Texture/PINRemoteImage (= 2.3.4)
+  - Texture/Core (2.3.4)
+  - Texture/IGListKit (2.3.4):
+    - IGListKit (= 3.0.0)
+    - Texture/Core
+  - Texture/PINRemoteImage (2.3.4):
+    - PINRemoteImage/iOS (= 3.0.0-beta.11)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+
+DEPENDENCIES:
+  - Texture
+  - Texture/IGListKit
+
+SPEC CHECKSUMS:
+  IGListKit: 9eab6856a15fa25ad72018ff9d9eb2178c240fff
+  PINCache: 98e7b1ef782824ad231ade51987c218b758c30d8
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: d71988f11914a050d6d4cf51efc4ad1de8c0a9d8
+  Texture: 8cf0872fe33328c20d7e6c1fcbf1f23a82162f2f
+
+PODFILE CHECKSUM: 57ccef8ab4b000940b073192c6afaca31c691ef9
+
+COCOAPODS: 1.2.1
