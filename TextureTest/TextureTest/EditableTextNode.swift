@@ -8,8 +8,8 @@
 
 import AsyncDisplayKit
 
-// Set this to TRUE to work around the bug.
-let ENABLE_WORKAROUND = true
+// Set this to `true` to work around the bug.
+let ENABLE_WORKAROUND = false
 
 class EditableTextNode: ASEditableTextNode {
   var indexPath: IndexPath = IndexPath(item: -1, section: -1)
